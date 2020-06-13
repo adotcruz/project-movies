@@ -11,7 +11,8 @@
     "outDir": "dist",
     "paths": {
       "@controllers/*": ["controllers/*"],
-      "@utils/*": ["utils/*"]
+      "@interfaces/*": ["interfaces/*"],
+      "@util/*": ["util/*"]
     }
   },
   "lib": ["es2015"],
