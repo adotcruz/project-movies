@@ -1,14 +1,16 @@
 export enum MoowType {
-  movie = "movie"
+  movie = 'movie',
+  series = 'series',
+  game = 'game',
 }
-export interface Moow {
+export interface MoowSearchItem {
   title: string;
   year: string;
   type: MoowType;
   posterUrl: string;
 }
 export interface MovieSearchResponse {
-  items: Moow[];
+  items: MoowSearchItem[];
   totalResults: number;
   nextPage: number;
 }

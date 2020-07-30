@@ -10,6 +10,7 @@
     "strict": true,
     "outDir": "dist",
     "paths": {
+      "@adapters/*": ["adapters/*"],
       "@controllers/*": ["controllers/*"],
       "@interfaces/*": ["interfaces/*"],
       "@util/*": ["util/*"]
